@@ -1,0 +1,118 @@
+.header{
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    width: 98%;
+    height: 20%;
+    margin: 10px 10px 10px 10px ;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;
+    display: flex
+}
+
+.top-bar{
+  height: 60px;
+  width:100%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.top-bar a{
+  color: black;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+#WebName { text-decoration: none; text-align: center; color: black; }
+
+h2 { margin-top : 50px ; margin-bottom: 50px;}
+
+.introduction{
+    width: 50%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px 25% 20px 25%;
+    color: grey;
+
+}
+
+.filterSortToolBar{
+    height: 60px;
+    width:100%;
+    font-family: "Times New Roman", Times, serif;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#filter, #sort {
+
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 100000px;
+  margin: auto;
+}
+
+.product-card {
+  background: #fefaf6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.material {
+  color: #b56653;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.price{
+    color : black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color:transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+  color: lightgrey;   /* Change color on hover */
+}

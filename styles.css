@@ -1,0 +1,121 @@
+
+.header{
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    width: 98%;
+    height: 20%;
+    margin: 10px 10px 10px 10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;
+    display: flex
+}
+#WebName { text-decoration: none; text-align: center; color: black; }
+
+.main img{
+    border-radius: 10px;
+    width: 98%;
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+}
+
+.menu-grid{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 5%;
+  max-width: 10000px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+
+}
+.menu-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+.menu-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+.gender-text {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      background: rgba(0, 0, 0, 0.1);
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+
+
+#trend{
+    margin: 30px 10px 30px 10px;
+
+}
+
+
+.trending-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    margin: 10px 10px 10px 10px;
+    max-width: 100000px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.product-card {
+  background: #fefaf6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  color
+
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.material {
+  color: #b56653;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.price{
+    color : black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+button {
+    background-color:transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-we: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+  color: lightgrey;   /* Change color on hover */
+}
+
