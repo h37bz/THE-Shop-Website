@@ -9,9 +9,31 @@
     </head>
     <body>
         <div class = "main" >
-            <div class = "header">
-                <h1><a id = "WebName" href = "index.html">THE SHOP</a></h1>
-            </div>
+            <nav class="navbar bg-light position-relative">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                        <a class="navbar-brand" id="WebName" style="font-size: 2rem;"  href="index.html">THE SHOP</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link "href="index.html">HOME</a>
+                        <a class="nav-link "href="men.html">MEN</a>
+                        <a class="nav-link" href="women.html">WOMEN</a>
+                        <a class="nav-link" href="kids.html">KIDS</a>
+                        <a class="nav-link" href="unisex.html">UNISEX</a>
+                    </div>
+                    </div>
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control form-control-sm me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search" style="width: 160px;">
+                        <button class="btn btn-outline-success btn-sm rounded-pill" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </nav>
 
             <div class = "top-bar">
                 <a href = "men.html">MEN</a>
@@ -139,3 +161,4 @@
         </div>
     </body>
 </html>
+
